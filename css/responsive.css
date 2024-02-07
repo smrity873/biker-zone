@@ -1,0 +1,11 @@
+@media only screen and (max-width: 425px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  ul{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+  }
+}
