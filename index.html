@@ -1,104 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BIKER-ZONE</title>
-    <link rel="shortcut icon" href="./images/icons/star-solid.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./images/icons/star-solid.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="bg">
-        <section class="flex justify-btn py-20 container">
-            <div class="flex gap-16 items-center">
-                <img width="50px" src="./images/icons/star-half-stroke-solid.svg" alt="">
-                <p class="navt">Biker-Zone</p>
-            </div>
-            <div class="navtext flex gap-16 items-center">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <button class="btn">Login</button>
-            </div>
-        </section>
+      <section class="flex justify-btn py-20 container">
+        <div class="flex gap-16 items-center">
+          <img
+            width="50px"
+            src="./images/icons/star-half-stroke-solid.svg"
+            alt=""
+          />
+          <p class="navt">Biker-Zone</p>
+        </div>
+        <div class="navtext flex gap-16 items-center">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <button class="btn">Login</button>
+        </div>
+      </section>
     </nav>
     <header>
-        <section class="bg">
-            <div class="flex container items-center gap-16">
-                <div>
-                    <p class="font-16">Computer-controlled digital transistorized with electronic advance</p><br><br>
-                    <p class="font-50"><b>Honda CBR 300R</b><p>
-                    <p class="font-16">Amet minim mollit non deserunt ullamco est sit aliqua <br>
-                        dolor do amet sint. Velit officia consequat duis enim velit <br>
-                        <u>mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </u></p><br>
-                    <button class="btn">Purchase</button>
-                </div>
-                <div class="flex ">
-                    <img src="./images/others/BiKe1900.png" alt="">
-                    
-                </div>
-            </div>
-        </section>
-        <section>
-            <p class="font-52  container "><b>Fetured Bikes In This Year</b></p>
-            <p class="container font-20"> Best bike collection</p>
-            <hr>
-        </section>
-        <section class="margin-40 container justyfy items-center gap-16">
-            <div class="flex">
-                <div class="flex margin-40">
-                    <img width="360px" src="/images/others/34bike.png" alt="">
-                </div>
-                <div class="flex margin-40">
-                    <img width="360px" src="/images/others/bike.png" alt="">
-                </div>
-                <div  class="flex margin-40">
-                    <img width="360px" src="/images/others/34bike.png" alt="">
-                </div>
-            </div>
-        </section>
-        <p class="font-52"><b>Latest News</b></p>
-        <section class="container">
-            <div class="flex justyfy margin-40">
-                <div class="margin-40 box">
-                    <img width="280px" src="/images/others/latest1.png" alt="">
-                    <h1>Ducati XDIAVEL S-73</h1>
-                    <p class="font1-16 ">Lorem ipsum dolor sit amet, consectetur <br>
-                        adipiscing elit. Lacus, fermentum amet <br>
-                        faucibus sed id nisi lectus at.</p>
-                        <button class="btn1 margin-40">Read More</button>
-                </div>
-                <div class="margin-40 box">
-                    <img width="280px" src="/images/others/latest2.png" alt="">
-                    <h1>Motorcycles & Scooters</h1>
-                    <p class="font1-16">Lorem ipsum dolor sit amet, consectetur <br>
-                        adipiscing elit. Lacus, fermentum amet <br>
-                        faucibus sed id nisi lectus at.</p>
-                        <button class="btn1 margin-40">Read More</button>
-                </div>
-                <div class="margin-40 box">
-                    <img width="280px" src="/images/others/latest3.png" alt="">
-                    <h1>Motorcycles & Scooters</h1>
-                    <p class="font1-16">Lorem ipsum dolor sit amet, consectetur <br>
-                        adipiscing elit. Lacus, fermentum amet <br>
-                        faucibus sed id nisi lectus at.</p>
-                        <button class="btn1 margin-40">Read More</button>
-                </div>
-            </div>
-        </section>
-        <div class="">
-            <p class="container margin-40 font-52"><b>Happy</b></p>
-        <p class="font1-52">Clients says</p>
-        </div>
-       
-    </header>
-</body>
 
+      <!-- banner section -->
+      <section class="bg">
+        <div class="flex container items-center gap-16">
+          <div>
+            <p class="font-16 sm-mt-30">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+
+            <br /><br />
+
+            <p class="font-50"><b>Honda CBR 300R</b></p>
+            <p></p>
+            <p class="font-16">
+              Amet minim mollit non deserunt ullamco est sit aliqua <br />
+              dolor do amet sint. Velit officia consequat duis enim velit <br />
+              <u>mollit. Exercitation veniam consequat sunt nostrud amet. </u>
+            </p>
+            <br />
+            <button class="btn">Purchase</button>
+          </div>
+          <div class="flex">
+            <img id="banner-img" src="./images/others/BiKe1900.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- featured section -->
+      <section>
+        <p class="font-52 container"><b>Fetured Bikes In This Year</b></p>
+        <p class="container font-20">Best bike collection</p>
+        <hr />
+      </section>
+
+      <!-- bikes -->
+      <section class="margin-40 container">
+        <div class="flex">
+          <img width="360px" src="/images/others/34bike.png" alt="" />
+
+          <img width="360px" src="/images/others/bike.png" alt="" />
+
+          <img width="360px" src="/images/others/34bike.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Latest news -->
+
+      <p class="font-52"><b>Latest News</b></p>
+
+      <section class="container">
+        <div class="flex justyfy margin-40 gap-16">
+          <div class="margin-40 box">
+            <img width="280px" src="/images/others/latest1.png" alt="" />
+            <h1>Ducati XDIAVEL S-73</h1>
+            <p class="font1-16">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Lacus, fermentum amet <br />
+              faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn1 margin-40">Read More</button>
+          </div>
+
+          <div class="margin-40 box">
+            <img width="280px" src="/images/others/latest2.png" alt="" />
+            <h1>Motorcycles & Scooters</h1>
+            <p class="font1-16">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Lacus, fermentum amet <br />
+              faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn1 margin-40">Read More</button>
+          </div>
+
+          <div class="margin-40 box">
+            <img width="280px" src="/images/others/latest3.png" alt="" />
+            <h1>Motorcycles & Scooters</h1>
+            <p class="font1-16">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Lacus, fermentum amet <br />
+              faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn1 margin-40">Read More</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- happy client section -->
+      <div class="mt-60 mb-50">
+        <p class="container margin-40 font-52"><b>Happy <span class="font1-52">Clients says</span></b></p>
+      </div>
+
+    </header>
+  </body>
 </html>

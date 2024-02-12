@@ -8,14 +8,32 @@
     gap: 16px;
     margin-top: 10px;
   }
+
+  #banner-img {
+    width: 400px;
+  }
+
+  .sm-mt-30 {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 80%;
     }
-}
 
-@media only screen and (max-width: 425px) {
-  
+    .flex {
+      flex-wrap: wrap;
+    }
+
+    img {
+      max-width: fit-content;
+      margin: 0 auto;
+    }
+
+    .box {
+      max-width: fit-content;
+      margin: 0 auto;
+    }
 }
